@@ -1,3 +1,4 @@
+package creating_thread;
 
 //By Extending Thread class
 public class Test extends Thread {

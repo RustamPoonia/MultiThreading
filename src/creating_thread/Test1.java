@@ -1,3 +1,5 @@
+package creating_thread;
+
 public class Test1 implements Runnable{
     public void run(){
         System.out.println("Thread task");
@@ -13,3 +15,4 @@ public class Test1 implements Runnable{
     }
 
 }
+

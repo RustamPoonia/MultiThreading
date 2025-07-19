@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b521fd3c-75f8-4197-baa4-2bd8680a91be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    <list default="true" id="b521fd3c-75f8-4197-baa4-2bd8680a91be" name="Changes" comment="Creating thread by both Thread class and Runnable Interface">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diff_Cases_In_Multithreading/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diff_Cases_In_Multithreading/Threas2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creating_thread/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creating_thread/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +51,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Test1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "G:/Multi_Threading/src/Main.java"
@@ -64,6 +71,15 @@
       <option name="presentableId" value="Default" />
       <updated>1752934390658</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creating thread by both Thread class and Runnable Interface">
+      <option name="closed" value="true" />
+      <created>1752935367847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752935367847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +92,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating thread by both Thread class and Runnable Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating thread by both Thread class and Runnable Interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
