@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b521fd3c-75f8-4197-baa4-2bd8680a91be" name="Changes" comment="Creating thread by both Thread class and Runnable Interface">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diff_Cases_In_Multithreading/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diff_Cases_In_Multithreading/Threas2.java" afterDir="false" />
+    <list default="true" id="b521fd3c-75f8-4197-baa4-2bd8680a91be" name="Changes" comment="Try Different cases of threads">
+      <change afterPath="$PROJECT_DIR$/src/Thread_Naming/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread_Naming/Thread1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creating_thread/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creating_thread/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +37,9 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3063qWb96rr3P6RsNJ8ZJswZQcL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,6 +51,9 @@
     "Application.Main.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
+    "Application.TestThread.executor": "Run",
+    "Application.TestThreadd.executor": "Run",
+    "Application.Thread1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -79,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752935367847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Try Different cases of threads">
+      <option name="closed" value="true" />
+      <created>1752941025983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752941025983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,7 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating thread by both Thread class and Runnable Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating thread by both Thread class and Runnable Interface" />
+    <MESSAGE value="Try Different cases of threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try Different cases of threads" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
