@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b521fd3c-75f8-4197-baa4-2bd8680a91be" name="Changes" comment="Learned Thread CLass methods and constructor">
-      <change afterPath="$PROJECT_DIR$/src/daemonThread/Threadtest.java" afterDir="false" />
+    <list default="true" id="b521fd3c-75f8-4197-baa4-2bd8680a91be" name="Changes" comment="Learned and Practise Darmon Thread">
+      <change afterPath="$PROJECT_DIR$/src/prevent_thread_execution_methods/SleepThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prevent_thread_execution_methods/Testsleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prevent_thread_execution_methods/ThreadSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prevent_thread_execution_methods/YieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread_priority/Priority.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +52,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Priority.executor": "Run",
+    "Application.SleepThread.executor": "Debug",
     "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
     "Application.TestThread.executor": "Run",
     "Application.TestThreadd.executor": "Run",
+    "Application.Testsleep.executor": "Run",
     "Application.Thread1.executor": "Run",
     "Application.Threadtest.executor": "Run",
+    "Application.YieldTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -95,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753015266612</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Learned and Practise Darmon Thread">
+      <option name="closed" value="true" />
+      <created>1753030218583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753030218583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,7 +129,8 @@
     <MESSAGE value="Creating thread by both Thread class and Runnable Interface" />
     <MESSAGE value="Try Different cases of threads" />
     <MESSAGE value="Learned Thread CLass methods and constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned Thread CLass methods and constructor" />
+    <MESSAGE value="Learned and Practise Darmon Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned and Practise Darmon Thread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -122,6 +139,15 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/prevent_thread_execution_methods/Testsleep.java</url>
+          <line>3</line>
+          <properties class="prevent_thread_execution_methods.Testsleep" method="run">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
