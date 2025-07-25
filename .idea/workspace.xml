@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b521fd3c-75f8-4197-baa4-2bd8680a91be" name="Changes" comment="Learned and Practise some more Thread methods(sleep(),yield(),...)">
-      <change afterPath="$PROJECT_DIR$/src/prevent_thread_execution_methods/join_method/JoinThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prevent_thread_execution_methods/join_method/LicenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prevent_thread_execution_methods/join_method/MainThreadwait.java" afterDir="false" />
+    <list default="true" id="b521fd3c-75f8-4197-baa4-2bd8680a91be" name="Changes" comment="Learned and Practise interrupt related method">
+      <change afterPath="$PROJECT_DIR$/src/synchronization/staticSynchronization/BookTickit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/synchronization/synchronizedBlock/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/synchronization/synchronizedMethod/SynchronizedBookTickit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prevent_thread_execution_methods/Testsleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prevent_thread_execution_methods/Testsleep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Atm.executor": "Run",
+    "Application.BookTickitApp.executor": "Run",
+    "Application.CenimaApp.executor": "Run",
+    "Application.CenimaUi.executor": "Run",
+    "Application.InterruptedThread.executor": "Run",
     "Application.JoinThread.executor": "Run",
     "Application.LicenceDemo.executor": "Run",
     "Application.Main.executor": "Run",
@@ -121,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753110840074</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Learned and Practise interrupt related method">
+      <option name="closed" value="true" />
+      <created>1753320405132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753320405132</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +153,8 @@
     <MESSAGE value="Learned Thread CLass methods and constructor" />
     <MESSAGE value="Learned and Practise Darmon Thread" />
     <MESSAGE value="Learned and Practise some more Thread methods(sleep(),yield(),...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned and Practise some more Thread methods(sleep(),yield(),...)" />
+    <MESSAGE value="Learned and Practise interrupt related method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned and Practise interrupt related method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
