@@ -12,7 +12,7 @@ public class BankAccount {
            }
            else {
                System.out.println("withdrowing");
-//               Thread.sleep(1000);
+               Thread.sleep(1000);
                balance = balance-amoutn;
                System.out.println("amount withdrowed!!"+amoutn);
            }
@@ -21,8 +21,13 @@ public class BankAccount {
 }
 
 class Atm extends  Thread{
-    private BankAccount bankAccount = new BankAccount();
+    private BankAccount bankAccount;
     private int amount;
+
+    Atm(BankAccount bankAccount,int amount){
+        this.bankAccount = bankAccount;
+        this.amount = amount;
+    }
     public void run(){
         try {
             System.out.println(Thread.currentThread().getName()+":is using Atm");
@@ -34,12 +39,11 @@ class Atm extends  Thread{
     }
 
     public static void main(String[] args) {
-        Atm ram = new Atm();
-        ram.amount = 1000;
+        BankAccount bankAccount = new BankAccount();
+        Atm ram = new Atm(bankAccount,1000);
         ram.start();
 
-        Atm rahul = new Atm();
-        rahul.amount =500;
+        Atm rahul = new Atm(bankAccount,500);
         rahul.start();
     }
 

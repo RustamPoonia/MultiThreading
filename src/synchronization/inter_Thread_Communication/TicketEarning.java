@@ -16,10 +16,8 @@ public class TicketEarning extends Thread{
 
 class Test {
     public static void main(String[] args) throws InterruptedException {
-
         TicketEarning obj = new TicketEarning();
         obj.start();
-//        obj.join(); this will wait for complete execution of the thread
              synchronized(obj){
                  obj.wait();
                  System.out.println("Total earning is :"+obj.totel);
